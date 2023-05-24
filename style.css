@@ -1,0 +1,29 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1{
+    font-family: fantasy;
+    font-size: 3em;
+    border-bottom: 2px solid pink;
+    border-right: 2px solid pink;
+    width: 400px;
+    text-align: center;
+    box-shadow: 4px 4px 5px #888888;
+}
+
+img{
+    width: 360px;
+    height: 480px;
+    margin: 10px;
+    transition: all 2s;
+}
+img:hover{
+    transform: rotateZ(360deg);
+}
